@@ -5,21 +5,24 @@
     <title>Glossary</title>
     <style>
         body{
-    background-color: #fff; 
-    background-image: 
-    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-    linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
+  background-color:silver;
+background-image: 
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size:100px 50px;
         }
     </style>
 </head>
 <body>
    <header>
-       <h1 align="center"> HTML 5 GLOSSARY</h1>
+       <h1 align="center">GLOSSARY <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="html5 logo" width="30"><img src="https://www.brandsoftheworld.com/sites/default/files/styles/logo-original-577x577/public/082014/js1_0.png?itok=zdiqYk3L" alt="jslogo" width="30"> </h1>
    </header>
    <section>
-               <table border="2px"> <!-- Lo cambiaremos por CSS -->
-            <caption>HTML5 TABLE</caption>
+               <table border="2px"> 
+            <caption>HTML5 Glossary <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="html5 logo" width="20"></caption>
             <tr>
                 <td>word </td>
                 <td>Defenition </td>
@@ -37,7 +40,8 @@
                 <td>The alt attribute in the image element (img) specifies an alternate text for an image. </td>
                 <td><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_image_test">Click here for example</a> </td>
                 <td><a href="https://www.w3schools.com/tags/att_img_alt.asp">w3schools.com</a></td>
-            </tr>
+                   </tr>
+            
             <tr>
                 <td>article</td>
                 <td>Defines an article in the document</td>
@@ -63,6 +67,14 @@
                 <td><a href="https://www.youtube.com/watch?v=MC-iUOxJVAM"> Youtube tutorial</a></td>
                 <td><a href="https://www.w3schools.com/tags/tag_canvas.asp">w3school.com</a></td>
             </tr>
+              
+            <tr>
+                 <td>charset</td>
+                 <td>The charset attribute specifies the character encoding used in an external script file.The charset attribute is used when the character encoding in an external script file differs from the encoding in the HTML document.
+                 </td>
+                 <td><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_script_charset">:D</a></td>
+                 <td><a href="https://www.w3schools.com/tags/att_script_charset.asp">w3schools.com</a></td>
+               </tr>
                <tr>
                 <td>CSS</td>
                 <td>Cascading Style Sheets (CSS) is a style sheet language used to describe the presentation semantics (the look and formatting) of a document written in a markup language such as HTML.</td>
@@ -143,6 +155,159 @@
                 <td><a href="https://www.w3schools.com/tags/tag_wbr.asp">w3schools.com</a></td>
             </tr>
         </table
+   </section>
+   <section>
+      <table border="2px"> 
+      <caption> <h2>JavaScript Glossary<img src="https://www.brandsoftheworld.com/sites/default/files/styles/logo-original-577x577/public/082014/js1_0.png?itok=zdiqYk3L" alt="jslogo" width="20"> </h2></caption>
+      <tr>
+          <td>add Event listener </td>
+          <td>Although you can start functions when your page loads, many times you'll want to start functions when a user clicks a link, enters a form, scrolls, moves his or her mouse over an object, or does something else. These actions are called events. You can set specific functions to run when the user performs an event. These functions "listen" for an event and then initiate the function.</td>
+          <td><a href="http://idratherbewriting.com/events-and-listeners-javascript/">:D</a></td>
+          <td><a href="http://idratherbewriting.com/events-and-listeners-javascript/">idratherbewriting.com</a></td>
+      </tr>
+      <tr>
+                <td>appendChild</td>
+                <td><p>The appendChild() method appends a node as the last child of a node.</p>
+                <p>Tip: If you want create a new paragraph, with text, remember to create the text as a Text node which you append to the paragraph, then append the paragraph to the document.</p></td>
+                <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_appendchild">:D</a></td>
+                <td><a href="https://www.w3schools.com/jsref/met_node_appendchild.asp">w3schools.com</a></td>
+            </tr>
+      <tr>
+        
+          <td>blob</td>
+          <td>Blobs are immutable objects that represent raw data. File is a derivation of Blob that represents data from the file system. Use FileReader to read data from a Blob or File. Blobs allow you to construct file like objects on the client that you can pass to apis that expect urls instead of requiring the server provides the file. For example, you can construct a blob containing the data for an image, use URL.createObjectURL() to generate a url, and pass that url to HTMLImageElement.src to display the image you created without talking to a server.</td>
+          <td><a href="http://www.javascripture.com/Blob"></a>:D</td>
+          <td><a href="http://www.javascripture.com/Blob">
+              www.javascripture.com
+          </a></td>
+      </tr>
+      <tr>
+          <td>beginPath</td>
+          <td><p>The beginPath() method begins a path, or resets the current path.</p>
+          <p>Tip: Use moveTo(), lineTo(), quadricCurveTo(), bezierCurveTo(), arcTo(), and arc(), to create paths.</p>
+            <p>Tip: Use the stroke() method to actually draw the path on the canvas.
+            </p></td>
+          <td><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_canvas_beginpath">:D</a></td>
+          <td><a href="https://www.w3schools.com/tags/canvas_beginpath.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>Collapse</td>
+          <td><p>Get base styles and flexible support for collapsible components like accordions and navigation.</p>
+          <p>Plugin dependency: Collapse requires the transitions plugin to be included in your version of Bootstrap.</p></td>
+          <td><a href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_collapse_simple&stacked=h">:D</a></td>
+          <td><a href="https://www.w3schools.com/bootstrap/bootstrap_ref_js_collapse.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>Class list</td>
+          <td>The classList property returns the class name(s) of an element, as a DOMTokenList object.This property is useful to add, remove and toggle CSS classes on an element.The classList property is read-only, however, you can modify it by using the add() and remove() methods.
+            </td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_classlist_add">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/prop_element_classlist.asp">w3schhools.com</a></td>
+      </tr>
+      <tr>
+          <td>dataset</td>
+          <td>The HTMLElement.dataset property allows access, both in reading and writing mode, to all the custom data attributes (data-*) set on the element, either in HTML or in the DOM.</td>
+          <td><a href="https://www.youtube.com/watch?v=on8ANTYvmQo">Youtube Tutorial</a></td>
+          <td><a href="https://developer.mozilla.org/es/docs/Web/API/HTMLElement/dataset">MDN</a></td>
+      </tr>
+      <tr>
+          <td>fetch</td>
+          <td>fetch() allows you to make network requests similar to XMLHttpRequest (XHR). The main difference is that the Fetch API uses Promises, which enables a simpler and cleaner API, avoiding callback hell and having to remember the complex API of XMLHttpRequest.</td>
+          <td><a href="https://www.youtube.com/watch?v=KAXsRAaSJsU">Youtube tutorial</a></td>
+          <td><a href="https://developers.google.com/web/updates/2015/03/introduction-to-fetch">Google developers</a></td>
+      </tr>
+      <tr>
+          <td>Find Index</td>
+          <td><p>The findIndex() method returns the index of the first element in an array that pass a test (provided as a function).</p>
+          <p>The findIndex() method executes the function once for each element present in the array:</p>
+          <ul>
+              <li>If it finds an array element where the function returns a true value, findIndex() returns the index of that array element (and does not check the remaining values)</li>
+              <li>Otherwise it returns -1</li>
+          </ul>
+          </td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_findindex">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/jsref_findindex.asp">w3chools.com</a></td>
+      </tr>
+      <tr>
+          <td>Floor</td>
+          <td>The floor() method rounds a number DOWNWARDS to the nearest integer, and returns the result. <p>
+          If the passed argument is an integer, the value will not be rounded.</p>
+          </td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_floor">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/jsref_floor.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>forEach</td>
+          <td>The forEach() method calls a provided function once for each element in an array, in order.</td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_foreach">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/jsref_forEach.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>inner html</td>
+          <td>The innerHTML property sets or returns the HTML content (inner HTML) of an element.</td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/prop_html_innerhtml.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>insertBefore</td>
+          <td><p>The insertBefore() method inserts a node as a child, right before an existing child, which you specify.</p>
+          <p>Tip: If you want to create a new list item, with text, remember to create the text as a Text node which you append to the (li) element, then insert (li) to the list.</p></td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_insertbefore">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/met_node_insertbefore.asp">w3schools.com</a></td>
+      </tr>
+
+      <tr>
+          <td>Json</td>
+          <td>JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.</td>
+          <td><a href="https://www.youtube.com/watch?v=wbB3lVyUvAM">Youtube tutorial</a></td>
+          <td><a href="http://www.json.org/">json.org</a></td>
+      </tr>
+      <tr>
+          <td>log</td>
+          <td>show a message in  web console.</td>
+          <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_dom">(¬'-')¬</a></td>
+          <td><a href="https://developer.mozilla.org/es/docs/Web/API/Console/log">Mozilla Developers</a></td>
+      </tr>
+       <tr>
+          <td>map</td>
+          <td>The map() method creates a new array with the results of calling a function for every array element.</td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_map">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/jsref_map.asp">w3schools.com</a></td>
+      </tr>
+            <tr>
+          <td>Math</td>
+          <td>The JavaScript Math object allows you to perform mathematical tasks on numbers.</td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselector_class">:D</a></td>
+          <td><a href="https://www.w3schools.com/js/js_math.asp">w3schools.com</a></td>
+      </tr>
+        <tr>
+          <td>offsetWidth</td>
+          <td>The offsetWidth property returns the viewable width of an element in pixels, including padding, border and scrollbar, but not the margin.</td>
+          <td><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_offsetheight">:D</a></td>
+          <td><a href="https://www.w3schools.com/jsref/prop_element_offsetwidth.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>query selector</td>
+          <td>The querySelector() method returns the first element that matches a specified CSS selector(s) in the document.</td>
+          <td><a href="https://www.w3schools.com/jsref/met_document_queryselector.asp">(¬'-')¬</a></td>
+          <td><a href="https://www.w3schools.com/jsref/met_document_queryselector.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>stringify</td>
+          <td>Convert a JavaScript object into a string with JSON.stringify().</td>
+          <td><a href="https://www.w3schools.com/js/tryit.asp?filename=tryjson_stringify">:D</a></td>
+          <td><a href="https://www.w3schools.com/js/js_json_stringify.asp">w3schools.com</a></td>
+      </tr>
+      <tr>
+          <td>strokeStyle</td>
+          <td>The strokeStyle property sets or returns the color, gradient, or pattern used for strokes.</td>
+          <td><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_canvas_strokestyle">:D</a></td>
+          <td><a href="https://www.w3schools.com/tags/canvas_strokestyle.asp">w3schools.com</a></td>
+      </tr>
+      
+    
+      
+       
    </section>
     
 </body>
